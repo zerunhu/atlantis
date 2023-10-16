@@ -5,10 +5,6 @@ terraform {
       version = "~> 1.81.14"
     }
   }
-  backend "cos" {
-    bucket = "tfcos-1318681538"
-    prefix = "test/state"
-  }  
 }
 
 provider "tencentcloud" {
