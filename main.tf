@@ -4,8 +4,8 @@ resource "tencentcloud_vpc" "vpc" {
   name         = "test-vpc-demo"
 }
 
-resource "tencentcloud_vpc" "vpc" {
+resource "tencentcloud_vpc" "vpc1" {
   cidr_block   = "10.116.32.0/20"
   is_multicast = "false"
-  name         = "test-vpc-demo"
+  name         = "test-vpc-demo1"
 }
